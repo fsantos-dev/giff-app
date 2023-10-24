@@ -1,38 +1,136 @@
-.App {
+.container {
+  padding: 30px;
+}
+
+h3{
+  margin: 0px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gap {
+  gap: 30px
+}
+
+.col {
+  flex: 1;
+}
+
+.col-1 {
+  flex-basis: calc(100% * (1 / 12));
+}
+
+.col-2 {
+  flex-basis: calc(100% * (2 / 12));
+}
+
+.col-3 {
+  flex-basis: calc(100% * (3 / 12));
+}
+
+.col-4 {
+  flex-basis: calc(100% * (4 / 12));
+}
+
+.col-5 {
+  flex-basis: calc(100% * (5 / 12));
+}
+
+.col-6 {
+  flex-basis: calc(100% * (6 / 12));
+}
+
+.col-7 {
+  flex-basis: calc(100% * (7 / 12));
+}
+
+.col-8 {
+  flex-basis: calc(100% * (8 / 12));
+}
+
+.col-9 {
+  flex-basis: calc(100% * (9 / 12));
+}
+
+.col-10 {
+  flex-basis: calc(100% * (10 / 12));
+}
+
+.col-11 {
+  flex-basis: calc(100% * (11 / 12));
+}
+
+.col-12 {
+  flex-basis: calc(100% * (12 / 12));
+}
+
+.btn-general {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background: #2E4C99;
+  color: white;
+  width: 20%;
+  font-weight: bold;
+}
+.btn-general:hover{
+  cursor: pointer;
+}
+
+.item{
+  border-radius: 5px;
+  margin-bottom: 30px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item label{
+  padding: 5px 0px;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: -5px;
+  border: 1px solid #ccc;
+  width: 95%;
+  background-color: #fff;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul{
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul img{
+  width: 95%;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  height: 250px;
+
+}
+
+.box-input{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  justify-content: space-between;
+}
+.container-input{
+  width: 78%;
+}
+.box-input > button{
+  height: 40px;
+  width: 20%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titulo-categoria{
+  margin: 10px 0px;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 8px;
+  color:#2E4C99;  
 }

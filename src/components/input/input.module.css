@@ -1,0 +1,49 @@
+.input {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input input {
+    width: 99%;
+    height: 25px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.input label {
+    position: absolute;
+    font-size: 14px;
+    top: 10px;
+    left: 8px;
+    text-transform: capitalize;
+    color: rgb(123, 119, 119);
+}
+
+div label:hover {
+    cursor:text;
+}
+
+
+input:focus+label {
+    font-size: 10px;
+    top: 4px;
+    color: #479BFF;
+}
+
+.active {
+    font-size: 10px !important;
+    top: 4px !important;
+    color: #479BFF !important;
+}
+
+div > label{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
